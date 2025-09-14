@@ -104,8 +104,8 @@
 \section{Research Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Prof. Reyhaneh Jabbarvand's Group, University of Illinois Urbana-Champaign}{Urbana, Illinois}
-      {Remote Research Intern}{June 2025 -- Present}
+      {Prof. Reyhaneh Jabbarvand's Group, University of Illinois Urbana-Champaign, \normalfont Urbana, Illinois}{}
+      {\textbf{Remote Research Intern}, June 2025 -- Present}{}
       \resumeItemListStart
         \resumeItem{Developing a framework to generate unit tests across multiple programming languages (C, Java, and Python).}
         \resumeItem{Designed tools and workflows for enhanced reliability and maximise code coverage.}
@@ -115,8 +115,8 @@
         \resumeItem{Co-authoring a paper on the framework, preparing to-be submitted at \textbf{ISSTA 2026}.}
       \resumeItemListEnd
     \resumeSubheading
-      {Prof. Anindya Iqbal's Group, BUET}{Dhaka, Bangladesh}
-      {Research Assistant}{March 2025 -- September 2025}
+      {Prof. Anindya Iqbal's Group, BUET, \normalfont Dhaka, Bangladesh}{}
+      {\textbf{Research Assistant}, March 2025 -- September 2025}{}
       \resumeItemListStart
         \resumeItem{Co-developed an agentic framework that translates natural language test cases into executable Web UI test scripts.}
         \resumeItem{Developed the Web Agent architecture to enable autonomous Web UI traversal.}
@@ -131,14 +131,13 @@
 \section{Work Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Yobo AI}{Ontario, Canada}
-      {Remote Software Engineer}{June 2024 -- Present}
+      {Yobo AI, \normalfont Canada}{}
+      {\textbf{Remote Software Engineer}, June 2024 -- Present}{}
       \resumeItemListStart
-        \resumeItem{Developed an AI-powered phone-call agent to automate concurrent task-oriented customer interactions for restaurants (delivery, pickup, reservation, FAQs).}
-        \resumeItem{Led the design of a multi-step pipeline that dynamically retrieves and injects relevant menu data into the LLM's context, enabling queries on large-scale knowledge bases.}
-        \resumeItem{Engineered the end-to-end delivery feature, including address capturing, validation using Google Maps API, and automated delivery acceptance/rejection based on distance calculation and dynamic delivery fee integration.}
+        \resumeItem{Co-developed an AI-powered phone-call agent to automate task-oriented customer interactions for restaurants.}
+        \resumeItem{Led the design of a multi-step reasoning pipeline that dynamically retrieves and injects relevant menu data into the LLM's context, enabling queries on large-scale knowledge bases.}
         \resumeItem{Designed prompts and functions for intelligent tool calling.}
-        \resumeItem{Contributed to the development of a dynamic noise filter and VAD system for a seamless customer experience.}
+        \resumeItem{Contributed to the development of a dynamic VAD system for a seamless customer experience.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -146,43 +145,43 @@
 \section{Achievements and Awards}
 \resumeSubHeadingListStart
     \resumeSubheading
-      {Bangladesh Blockchain Olympiad 2024 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{}
-      {Honourable Mention in Both AI Category \& Blockchain Category}{September 2024}
+      {Bangladesh Blockchain Olympiad 2024 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{Sep 2024}
+      {Honourable Mention in Both AI Category \& Blockchain Category}{}
       \resumeItemListStart
-        \resumeItem{Led team to Honourable Mention among 250+ teams by developing an AI-powered health ecosystem featuring machine learning medical diagnosis and empathic AI therapist.}
+        \resumeItem{Led the team to secure Honourable Mention out of 250+ teams nationwide, developing a comprehensive health app ecosystem powered by AI, featuring a medical diagnosis tool using deep learning models and an AI therapist with natural interruption and empathic voice features (ChatGPT API, Hume AI API).}
         \resumeItem{Designed MEDIBLOC, a blockchain-based medical prescription management system with Attribute-Based Access Control (ABAC) for secure sharing of prescriptions between hospitals, pharmacies, and patients.}
       \resumeItemListEnd
     \resumeSubheading
-      {Hello Yobo AI Hackathon 2024 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{}
-      {Second Runners up}{May 2024}
+      {Hello Yobo AI Hackathon 2024 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{May 2024}
+      {Second Runners up}{}
       \resumeItemListStart
         \resumeItem{Led team to 2nd runners-up position among 50+ teams by developing Athene, an offline Android LLM chatbot using Mediapipe API with 600 tokens/sec inference speed on mobile CPUs.}
       \resumeItemListEnd
     \resumeSubheading
-      {Therap Javafest 2023 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{}
-      {Top 10 Finalist}{August 2023}
+      {Therap Javafest 2023 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{August 2023}
+      {Top 10 Finalist}{}
       \resumeItemListStart
-        \resumeItem{Led team to Grand Finale (top 10/150+ teams) by developing a fullstack customer management application using Spring Boot and Angular with AI-powered analytics for revenue tracking and forecasting.}
+        \resumeItem{Led the team to reach the Grand Finale, securing a top 10 position out of 150+ teams, by developing a Fullstack Customer Management Application for small shops using Spring Boot and Angular. Integrated AI components, including leveraging LLMs and machine learning (ML) models, to track customer purchases and generate data analytics reports on revenue, forecasted revenue, and forecasted profit.}
       \resumeItemListEnd
     \resumeSubheading
-      {SUST Technovent 2023 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{}
-      {First Runners up}{January 2023}
+      {SUST Technovent 2023 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{Jan 2023}
+      {First Runners up}{}
       \resumeItemListStart
-        \resumeItem{Led team to 2nd runners-up position among 170+ teams by developing a blockchain-based authentication system with RFID technology for vault security. Custom JavaScript blockchain implementation passed 69 test cases.}
+        \resumeItem{Led the team to secure 2nd runners-up out of 170+ teams nationwide, in developing a blockchain-based authentication system for secure access control, utilizing RFID technology to protect industrial vaults. The custom-built JavaScript blockchain passed 69 test cases, ensuring robust and decentralized security measures.}
       \resumeItemListEnd
     \resumeSubheading
-      {HackNSU Season 3 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{}
-      {Second Runners up}{November 2021}
+      {HackNSU Season 3 $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{Nov 2021}
+      {Second Runners up}{}
       \resumeItemListStart
-        \resumeItem{Led team to 2nd runners-up position among 30+ teams by developing Remedi, a telemedicine platform with AI-powered symptom diagnosis chatbot using Intelligent Machines API.}
+        \resumeItem{Led the team to secure 2nd runners-up out of 30+ teams nationwide, in developing Remedi, a telemedicine platform powered by an AI chatbot (Intelligent Machines API) to help patients self-diagnose based on their health symptoms, providing accurate potential diagnoses through an intuitive interface.}
       \resumeItemListEnd
     \resumeSubheading
-      {Academic Olympiads $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{}
-      {Physics, Chemistry, Mathematics}{2017 -- 2020}
+      {Academic Olympiads $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{Link}}{2017 -- 2020}
+      {Physics, Chemistry, Mathematics}{}
       \resumeItemListStart
-        \resumeItem{Mathematics: First place winner at Jahangirnagar University Maths Olympiad.}
-        \resumeItem{Physics: Translated official Olympiad book (Categories A \& B) from Bangla to English; National Round participant (2017-2019).}
-        \resumeItem{Chemistry: Achieved 11th place in National Round competition.}
+        \resumeItem{Physics: Translated official Olympiad book (Category A and B) from Bangla to English; qualified for National Round three consecutive years (2017-2019).}
+        \resumeItem{Chemistry: Achieved 11th place in National Round.}
+        \resumeItem{Mathematics: Secured first place in Jahangirnagar University Olympiad.}
       \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -210,12 +209,10 @@
 \end{itemize}
 
 \section{Programming Skills}
-\begin{itemize}[leftmargin=0.15in, label={}]
-    \item \color[HTML]{1C033C}\textbf{Languages:} Python, Java, C++, JavaScript, C, SQL, Shell Scripting\\
-    \color[HTML]{1C033C}\textbf{Databases:} PostgreSQL, MySQL, MongoDB, Firebase\\
-    \color[HTML]{1C033C}\textbf{Web Development:} Django, FastAPI, ReactJS, Flask, NodeJS, Spring Boot, HTML, CSS\\
-    \color[HTML]{1C033C}\textbf{Technologies \& Tools:} AFL++, Logstash, Git, GitHub, Docker, AWS (Amazon S3), Hyperledger Fabric
-\end{itemize}
+\color[HTML]{1C033C}\textbf{Languages:} Python, Java, C++, JavaScript, C, SQL, Shell Scripting\\[3pt]
+\color[HTML]{1C033C}\textbf{Databases:} PostgreSQL, MySQL, MongoDB, Firebase\\[3pt]
+\color[HTML]{1C033C}\textbf{Web Development:} Django, FastAPI, ReactJS, Flask, NodeJS, Spring Boot, HTML, CSS\\[3pt]
+\color[HTML]{1C033C}\textbf{Technologies \& Tools:} Git, GitHub, Docker, AWS (Amazon S3), Hyperledger Fabric
 \section{Reference}
 \resumeSubHeadingListStart
     \resumeSubheading
