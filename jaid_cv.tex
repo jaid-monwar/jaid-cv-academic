@@ -1,0 +1,269 @@
+\documentclass[letterpaper,12pt]{article} % Increased font size to 12pt
+\usepackage{mathptmx} % Set mathptmx as the main font
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+
+\usepackage[x11names]{xcolor} % Allows fine-tuned colors
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=Blue4, % Subtle blue color; adjust as needed
+    citecolor=black
+}
+
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\usepackage{fontawesome5}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+\begin{center}
+    \textbf{\Huge \scshape Jaid Monwar Chowdhury} \\ \vspace{1pt}
+    \href{mailto:jaidmonwar.official@gmail.com}{\underline{jaidmonwar.official@gmail.com}} $|$ \small +8801781737438 $|$ \href{https://jaid-monwar.github.io}{\underline{Website}} $|$
+    \href{https://github.com/jaid-monwar}{\underline{GitHub}}
+\end{center}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bangladesh University of Engineering and Technology (BUET)}{February 2020 -- March 2025}
+      {Bachelor of Science in Computer Science and Engineering}{}
+  \resumeSubHeadingListEnd
+
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Research Internship, IntelligentCATLab, University of Illinois Urbana-Champaign}{June 2025 -- Present}
+      {Remote Research Intern advised by Prof. Reyhaneh Jabbarvand}{}
+      \resumeItemListStart
+        \resumeItem{Co-developing a framework to generate unit tests across multiple programming languages (C, Java, and Python).}
+        \resumeItem{Designed tools and workflows for enhanced reliability and maximise code coverage.}
+        \resumeItem{Wrote a modular component to provide the agent with multi-language parsing and generation capabilities.}
+        \resumeItem{Implemented a semantic analysis module to deepen the agent's program understanding.}
+        \resumeItem{Conducted evaluations of scalability, reliability and test coverage enhancements.}
+        \resumeItem{Co-authoring a paper on the framework, preparing to-be submitted at \textbf{ISSTA 2026}.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {RIC-BUET}{March 2025 -- Present}
+      {Research Assistant advised by Prof. Anindya Iqbal}{}
+      \resumeItemListStart
+        \resumeItem{Co-developed an agentic framework that translates natural language test cases into executable Web UI test scripts.}
+        \resumeItem{Developed the Web Agent architecture to enable autonomous Web UI traversal.}
+        \resumeItem{Implemented and deployed the end-to-end backend and frontend infrastructure for the research framework.}
+        \resumeItem{Curated a dataset of natural language test cases from real-world websites for evaluation.}
+        \resumeItem{Conducted evaluations of maintainability, robustness, and quality  of the scripts against industry-standard tools.}
+        \resumeItem{Co-first authored a paper soon to-be submitted at \textbf{FSE 2026}.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Yobo AI, Canada}{June 2024 -- Present}
+      {Remote Full Stack Engineer}{}
+      \resumeItemListStart
+        \resumeItem{Co-developed an AI-powered phone-call agent to automate task-oriented customer interactions for restaurants.}
+        \resumeItem{Led the design of a multi-step reasoning pipeline that dynamically retrieves and injects relevant menu data into the LLM's context, enabling queries on large-scale knowledge bases.}
+        \resumeItem{Designed prompts and functions for intelligent tool calling.}
+        \resumeItem{Contributed to the development of a dynamic VAD system for a seamless customer experience.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Achievements and Awards}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {RISE Research Grant}{2023}
+      {Bangladesh University of Engineering and Technology}{}
+      \resumeItemListStart
+        \resumeItem{Awarded the RISE Research Grant for outstanding research contributions and potential.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Dean's List Award, Merit Scholarship, and Admission Test Scholarship}{2019 -- 2024}
+      {Bangladesh University of Engineering and Technology}{}
+      \resumeItemListStart
+        \resumeItem{Awarded after each term for academic excellence.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Second Runner-Up, DUITS IT Fest Hackathon}{2014}
+      {Dhaka University IT Society}{}
+      \resumeItemListStart
+        \resumeItem{Secured the second runner-up position for developing EmerApp.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Projects (Selected)}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Paging Framework and Scheduler for xv6 Operating System} \emph{}}{2023}
+          \resumeItemListStart
+            \resumeItem{Implemented a simple paging framework and a lottery scheduler for the xv6 OS.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{QCC - Tiny C Compiler} $|$ \href{https://github.com/quvi007/qcc}{GitHub}}{2022}
+          \resumeItemListStart
+            \resumeItem{Built a tiny C compiler using C++ that translates C code into assembly code.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{4-Bit MIPS CPU} $|$ \href{https://github.com/quvi007/MIPS-CPU}{GitHub}}{2022}
+          \resumeItemListStart
+            \resumeItem{Built hardware and a virtual simulation for the CPU pipeline.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Ray-Tracing in OpenGL} $|$ \href{https://github.com/quvi007/Ray-Tracing}{GitHub}}{2023}
+          \resumeItemListStart
+            \resumeItem{Implemented rasterization and a ray-tracing pipeline in C++ and OpenGL.}
+          \resumeItemListEnd    
+      \resumeProjectHeading
+          {\textbf{CryptoSys - Basic Crypto-System for Secured Communication} $|$ \href{https://github.com/quvi007/crypto-sys}{GitHub}}{2023}
+          \resumeItemListStart
+            \resumeItem{Implemented a basic crypto-system utilizing AES and Diffie-Hellman algorithm.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{HTTP Server} $|$ \href{https://github.com/quvi007/Minimalist-HTTP-Server}{GitHub}}{2022}
+          \resumeItemListStart
+            \resumeItem{Built a multi-threaded HTTP server using Java and socket programming.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Microcontroller based Automated Traffic Signaling System} $|$ \href{https://github.com/quvi007/automated-traffic-signaling-microcontroller-system}{GitHub}}{2022}
+          \resumeItemListStart
+            \resumeItem{Built an automated traffic signaling system with Arduino.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Gradery - An Online CMS} $|$ \href{https://github.com/quvi007/Gradery}{GitHub}}{2022}
+          \resumeItemListStart
+            \resumeItem{Developed an online course management system (CMS) for BUET CSE.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{KagOJ - An Online Judge} $|$ \href{https://github.com/quvi007/KagOJ}{GitHub}}{2023}
+          \resumeItemListStart
+            \resumeItem{Co-developed an online judge platform for coding practice and contests.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Bounce Game for Windows} $|$ \href{https://github.com/quvi007/bounce_game_desktop-L1T1-project}{GitHub}}{2019}
+          \resumeItemListStart
+            \resumeItem{Built the desktop version of the popular mobile game, Bounce.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{EmerApp - Helper in Emergency} \emph{}}{2014}
+          \resumeItemListStart
+            \resumeItem{Developed an Android app to assist users during emergencies.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{Activities}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Director of Technology, BUET Cyber-Security Club}{2023 -- 2024}
+      {Bangladesh University of Engineering and Technology}{}
+      \resumeItemListStart
+        \resumeItem{Organized workshops on various cyber-security topics and arranged Capture-the-Flag (CTF) competitions.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Student Mentor}{2019 -- 2024}
+      {Bangladesh University of Engineering and Technology}{}
+      \resumeItemListStart
+        \resumeItem{Mentored several undergraduate students in research and university projects.}
+        \resumeItem{Mentored around 20 high school students in informatics, physics and mathematical olympiads.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Languages}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item \textbf{English:}  TOEFL 111/120 (Reading: 29, Listening: 26, Speaking: 29, Writing: 27)\\
+    \textbf{Bengali:} Native Proficiency
+\end{itemize}
+
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: C/C++, C\#, Bash, Java, Python, SQL, JavaScript, HTML/CSS, R, \LaTeX{}, Kernel Hacking and eBPF} \\
+     \textbf{Frameworks}{: Node.js, Express.js, React} \\
+     \textbf{Miscellaneous}{: Vim, Emacs, Git, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse, pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+\section{Reference}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {Ryan Huang}{University of Michigan, Ann Arbor}
+        {Associate Professor, Computer Science and Engineering}{ryanph@umich.edu}
+    \resumeSubheading
+        {Anindya Iqbal}{Bangladesh University of Engineering and Technology}
+        {Professor, Computer Science and Engineering}{anindya@cse.buet.ac.bd}
+    \resumeSubheading
+        {Sukarna Barua}{Bangladesh University of Engineering and Technology}
+        {Associate Professor, Computer Science and Engineering}{sukarnabarua@cse.buet.ac.bd}
+\resumeSubHeadingListEnd
+\end{document}
